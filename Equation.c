@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-#define ZERO 1*e^-5
-
 int SolveLin (double b, double c, double *answer1);
 int SolveQuadro (double a, double b, double c, double *answer1, double *answer2);
 
@@ -65,7 +63,7 @@ int main ()
         case 2:
             printf ("answer 1 = %lf, answer 2 = %lf, number of solutions = %i\n", answer1, answer2, SolNum);
             break;
-        default 
+        default: 
             printf ("error printing answers");
             break;
         }
